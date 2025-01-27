@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,35 +14,57 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      overflow: auto;
+      overflow: hidden;
       text-align: center;
-      margin: 0;
-      padding: 20px;
+      padding: 10px;
     }
-
     #text {
       font-size: 2rem;
       white-space: pre-wrap;
       overflow: hidden;
       border-right: 2px solid #fff;
-      width: 50%;
+      width: 100%; /* Ajustei para ocupar toda a largura */
+      max-width: 600px;
+      margin-bottom: 20px;
       animation: typing 4s steps(40, end), blink 0.7s step-end infinite;
     }
-
     #stats {
-      margin-top: 30px;
-      width: 80%;
+      margin-top: 20px;
+      width: 100%;
+      max-width: 600px;
     }
-
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #fff;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    .badge {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 5px;
+      font-size: 1rem;
+    }
+    hr {
+      border: 1px solid #fff;
+      width: 80%;
+      margin: 20px auto;
+    }
     @keyframes typing {
       from {
         width: 0;
       }
       to {
-        width: 50%;
+        width: 100%;
       }
     }
-
     @keyframes blink {
       from {
         border-color: transparent;
@@ -51,46 +73,10 @@
         border-color: white;
       }
     }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-    }
-
-    table, th, td {
-      border: 1px solid #fff;
-    }
-
-    th, td {
-      padding: 10px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #333;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 5px 10px;
-      border-radius: 5px;
-      margin: 5px;
-      font-size: 0.9rem;
-      font-weight: bold;
-      color: #fff;
-    }
-
-    a {
-      margin: 5px;
-      text-decoration: none;
-    }
   </style>
 </head>
 <body>
-  <!-- Texto com efeito de digitação -->
   <div id="text"></div>
-
   <script>
     const text = `Eu sou o Luan
 Apaixonado por programação e cibersegurança
@@ -108,7 +94,6 @@ Adoro resolver problemas e aprender novas tecnologias!`;
     typeWriter();
   </script>
 
-  <!-- Estatísticas e linguagens -->
   <div id="stats">
     <h3>🌐 Apaixonado por programação e cibersegurança</h3>
     <hr>
@@ -151,7 +136,6 @@ Adoro resolver problemas e aprender novas tecnologias!`;
     </div>
   </div>
 
-  <!-- Links de Conexão -->
   <div>
     <h3>🚀 Vamos conectar?</h3>
     <a href="https://github.com/seu-username" target="_blank">
