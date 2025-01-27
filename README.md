@@ -1,46 +1,139 @@
-<h1 align="center"> Eu sou o Luan </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação do Luan</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+    }
+    #text {
+      font-size: 2rem;
+      white-space: pre-wrap;
+      overflow: hidden;
+      border-right: 2px solid #fff;
+      width: 50%;
+      animation: typing 4s steps(40, end), blink 0.7s step-end infinite;
+    }
+    #stats {
+      margin-top: 20px;
+      width: 80%;
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 50%;
+      }
+    }
+    @keyframes blink {
+      from {
+        border-color: transparent;
+      }
+      to {
+        border-color: white;
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #fff;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    .badge {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div id="text"></div>
+  <script>
+    const text = `Eu sou o Luan
+Apaixonado por programação e cibersegurança
+Adoro resolver problemas e aprender novas tecnologias!`;
+    let i = 0;
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Ashutosh00710/github-readme-activity-graph/master/assets/top.svg" alt="Wave Header" width="100%">
-</div>
+    function typeWriter() {
+      if (i < text.length) {
+        document.getElementById("text").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 50);
+      }
+    }
 
-<h3 align="center">🌐 Apaixonado por programação e cibersegurança</h3>
+    typeWriter();
+  </script>
 
----
+  <div id="stats">
+    <h3>🌐 Apaixonado por programação e cibersegurança</h3>
+    <hr>
+    <h3>🔍 Luan's GitHub Stats</h3>
+    <table>
+      <tr>
+        <th>Métrica</th>
+        <th>Valor</th>
+      </tr>
+      <tr>
+        <td>Total de Stars</td>
+        <td>203</td>
+      </tr>
+      <tr>
+        <td>Total de Commits (2025)</td>
+        <td>925</td>
+      </tr>
+      <tr>
+        <td>Total de PRs</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Total de Issues</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Contribuições (último ano)</td>
+        <td>0</td>
+      </tr>
+    </table>
 
-### 🔍 **Luan's GitHub Stats**
-| Métrica                       | Valor |
-|-------------------------------|-------|
-| **Total de Stars**            | 203   |
-| **Total de Commits (2025)**   | 925   |
-| **Total de PRs**              | 2     |
-| **Total de Issues**           | 1     |
-| **Contribuições (último ano)**| 0     |
+    <h3>🛠️ Linguagens Mais Usadas</h3>
+    <div>
+      <span class="badge" style="background-color: red;">Java: 40%</span>
+      <span class="badge" style="background-color: yellow;">JavaScript: 27.41%</span>
+      <span class="badge" style="background-color: orange;">HTML: 23.01%</span>
+      <span class="badge" style="background-color: blue;">Python: 19.56%</span>
+      <span class="badge" style="background-color: purple;">CSS: 15.46%</span>
+      <span class="badge" style="background-color: darkgreen;">Cibersegurança: 20%</span>
+    </div>
+  </div>
 
----
-
-### 🛠️ **Linguagens Mais Usadas**
-
-- **Java**: ![40%](https://img.shields.io/badge/Java-40%25-red)
-- **JavaScript**: ![27.41%](https://img.shields.io/badge/JavaScript-27.41%25-yellow)
-- **HTML**: ![23.01%](https://img.shields.io/badge/HTML-23.01%25-orange)
-- **Python**: ![19.56%](https://img.shields.io/badge/Python-19.56%25-blue)
-- **CSS**: ![15.46%](https://img.shields.io/badge/CSS-15.46%25-purple)
-- **Cibersegurança**: ![20%](https://img.shields.io/badge/Cibersegurança-20%25-darkgreen)
-
----
-
-<div align="center">
-  <h3> 🚀 Vamos conectar? </h3>
-  <a href="https://github.com/seu-username" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-  </a>
-</div>
-
----
-
-<div align="center">
-  <iframe src="data:text/html;charset=utf-8;base64,PGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CgogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsaW5pdGlhbC1zY2FsZT0xLjAiPgoKICA8dGl0bGU+Q ▋
+  <div>
+    <h3>🚀 Vamos conectar?</h3>
+    <a href="https://github.com/seu-username" target="_blank">
+      <img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">
+      <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+    </a>
+  </div>
+</body>
+</html>
