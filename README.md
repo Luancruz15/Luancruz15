@@ -4,11 +4,11 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Apaixonado por programação e cibersegurança
 -------------------------------------------
 
-Me chamo Luan Jorge De Oliveira Cruz. Eu desejo me tornar um desenvolvedor back-end. Estou cursando Analise e Desenvolvimentos no IESB e também fazendo alguns cursos por fora sobre CiberSegurança que e uma area onde eu gosto de aprender muito! Apesar de ainda não ter experiência em programação, sempre fui muito por dentro do mundo da tecnologia, sempre muito antenado a cada mudança que acontecia nesse mundo, e estou trabalhando arduamente para que no futuro possa trabalhar na area!
+Me chamo Luan Jorge De Oliveira Cruz. Eu desejo me tornar um Tracker and Performace analyser, Former Analise e Desenvolvimento and CyberSecurity lover uma area onde eu gosto de aprender muito! Apesar de ainda não ter experiência em programação, sempre fui muito por dentro do mundo da tecnologia, sempre muito antenado a cada mudança que acontecia nesse mundo, e estou trabalhando arduamente para que no futuro possa trabalhar na area!
 
 * 🌍  I'm based in Brasilia
 * ✉️  You can contact me at [luancruz1500@gmail.com](mailto:luancruz1500@gmail.com)
-* 🧠  I'm learning C#, React, Node.js, Java, MongoDB
+* 🧠  Future Tracker
 
 ### Skills
 
