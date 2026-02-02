@@ -1,7 +1,3 @@
-Me chamo Luan
-============================================================================================================================
-
--------------------------------------------
 
 Me chamo Luan Jorge De Oliveira Cruz. Eu desejo me tornar um Tracker and Performace analyser, Former Analise e Desenvolvimento and CyberSecurity lover uma area onde eu gosto de aprender muito! Apesar de ainda não ter experiência em programação, sempre fui muito por dentro do mundo da tecnologia, sempre muito antenado a cada mudança que acontecia nesse mundo, e estou trabalhando arduamente para que no futuro possa trabalhar na area!
 
